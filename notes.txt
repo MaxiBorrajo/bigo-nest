@@ -1,0 +1,8 @@
+nest ya handlea errores con este formato
+{
+  "statusCode": 500,
+  "message": "Internal server error"
+}
+si quiero tirar una excepcion
+throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
+Entonces el custom error tiene que arrancar de aca
